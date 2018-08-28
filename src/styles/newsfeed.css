@@ -1,0 +1,194 @@
+.newsFeed {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.miniProfileContainer {
+    flex: 1;
+}
+
+.miniProfile {
+    background-color: #FFFFFF;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.miniProfileContainer .logout {
+    background-color: #fa5050;
+    color: #FFFFFF;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.miniProfileContainer .logout:hover {
+    background-color: #ff1818;
+}
+
+.miniProfileContainer .updateDP {
+    background-color: #FFFFFF;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.miniProfileContainer .updateDP input{
+    border-radius: 5px;
+    resize: none;
+    border: 1px solid #c8d5e0; 
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 10px; 
+    outline: none;
+    width: 100%;
+}
+
+.miniProfileContainer .updateDP .updateDPButton {
+    background-color: #47d57a;
+    color: #FFFFFF;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+    width: 100%;
+}
+
+.miniProfile .profileName {
+    margin: 20px;
+    margin-top: 50px;
+}
+
+.profile_picture {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.posts {
+    flex: 3;
+    margin: 10px;
+    margin-right: 30px;
+}
+
+.post {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.post .post_metadata {
+    padding: 10px;
+    display: flex;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.post .post_metadata img {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.post .post_metadata .post_details .post_author {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.post .post_metadata .post_details .posted_time {
+    font-size: 14px;
+    color: #A0A0A0;
+    font-weight: lighter;
+}
+
+.post .post_data {
+    padding: 10px;
+}
+
+.post .post_data p {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.post .post_data img {
+    width: 100%;
+}
+
+.post .likes {
+    background-color: #c8d5e0; 
+    display: flex;
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+    color: #FFFFFF;
+    align-items: center;
+}
+
+.post .likes img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.post .likes p {
+    font-size: 14px;
+}
+
+
+.newpost {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.newpost .new_post_title {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.newpost textarea, .newpost input{
+    border-radius: 5px;
+    resize: none;
+    height: 100px;
+    border: 1px solid #c8d5e0; 
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 10px; 
+    outline: none;
+}
+
+.newpost input {
+    height: auto;
+}
+
+.newpost .post_button {
+    width: auto;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #e4f3ff;
+    border: 1px solid #c8d5e0;
+    outline: none;  
+    cursor: pointer;
+}
